@@ -24,7 +24,7 @@ namespaces = true
 
 [tool.setuptools_scm]
 # write a version file at build time that contains the git ref, so that the ref is availble in the package code.
-version = "0.1.0"
+# version = "0.1.0"
 # override version file template, so that it contains the plain git ref, instead of the automatic generated version.
 # version_file_template = 'git_ref = "{scm_version.node}"'
 
