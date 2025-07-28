@@ -24,9 +24,9 @@ namespaces = true
 
 [tool.setuptools_scm]
 # write a version file at build time that contains the git ref, so that the ref is availble in the package code.
-version_file = "src/open3e/_scm_version.py"
+version = "0.1.0"
 # override version file template, so that it contains the plain git ref, instead of the automatic generated version.
-version_file_template = 'git_ref = "{scm_version.node}"'
+# version_file_template = 'git_ref = "{scm_version.node}"'
 
 # PEP 621 https://peps.python.org/pep-0621/
 [project]
